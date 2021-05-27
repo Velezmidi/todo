@@ -7,6 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewTaskComponent implements OnInit {
 
+  getVal(val:any){
+    console.log(val)
+  }
+
   constructor() { }
 
   ngOnInit(): void {
